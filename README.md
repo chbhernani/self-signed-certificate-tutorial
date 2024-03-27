@@ -121,7 +121,7 @@ keytool -delete -alias rootCA -keystore $JAVA_HOME/lib/security/cacerts -storepa
 9. Finally, for local development use the now self-signed _domain.crt_ and _domain.key_ files (maybe also the password set on steps above).
 
 Sources:
-https://www.baeldung.com/openssl-self-signed-cert
-https://www.baeldung.com/jvm-certificate-store-errors
-http://java.globinch.com/enterprise-java/security/pkix-path-building-failed-validation-sun-security-validatorexception/
+- https://www.baeldung.com/openssl-self-signed-cert
+- https://www.baeldung.com/jvm-certificate-store-errors
+- http://java.globinch.com/enterprise-java/security/pkix-path-building-failed-validation-sun-security-validatorexception/
 
